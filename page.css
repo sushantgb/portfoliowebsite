@@ -1,0 +1,280 @@
+.section
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    margin: 0px 30px 0px 30px;
+}
+/* Content paragraph styling for other pages */
+.content
+{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    display: block;
+    color:whitesmoke;
+    font-size: 20px;
+    margin: 0px 10px 0 0px;
+    background-color:#54F078;;
+    border-radius: 4px;
+    width: 1800px;
+    padding: 2px;
+    opacity: 0.8;
+}
+/* Span styling for text */
+#tstyle
+{
+    font-style: italic;
+    color:#FCEE9D;
+    
+}
+/* Content related styling for paragraphs */
+.heading
+{
+    margin: 20px 0px 0px 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+/* Styling for the content para of the page - about me */
+.para1
+{
+    font: 20px normal;
+    text-align: justify;
+    margin: 0px 20px 20px 20px;
+    color: #DEFFFF;
+}
+/* styling for the image para on the about me page */
+.para3
+{
+    margin: 20px 20px 20px 20px;
+}
+.para3 img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+/* Syling for the content para of the page - experience */
+.para2
+{
+    font-weight: medium;
+    color:#4F4D49;
+    margin: 0px 20px 20px 20px;
+    
+}
+/* Styling of list within the content */
+.conlist
+{
+    list-style: square;
+}
+/* ----------------- */
+
+/* Styling of table content */
+.skiltab td
+{
+    border: 1px solid;
+    background-color: #FCEE9D;
+    border-radius: 4px;
+    padding: 5px;
+    color: #4F4D49;
+    font-size: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+}
+.skiltab th
+{
+    border: 1px solid;
+    background-color:#FA787C;
+    border-radius: 4px;
+    padding: 5px;
+    color: #4F4D49;
+    font-size: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+/* ----------------------------- */
+
+/* Styling for skill set bars */
+.skillset
+{
+    width: 80%;
+}
+.skills #skill_list
+{
+    list-style: none;
+}  
+.skill
+{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: left;
+    padding: 10px, 10px, 20px, 10px;
+    margin: 10px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: black;
+}  
+.acad {width: 90%; background-color: white}
+.ansys {width: 80%; background-color:#F2EE26}
+.nx {width: 70%; background-color:#ff7e7e}
+.creo {width: 90%; background-color:white}
+.html {width: 50%; background-color: #F2EE26}
+.css {width: 30%; background-color: #ff7e7e}
+.vgd {width: 70%; background-color:white}
+.write {width: 80%; background-color: #F2EE26}
+/* ---------------------- */
+
+/* Styling for language proficiency bars */
+.bhasa
+{
+    width: 80%;
+}
+.language #lanlist
+{
+    list-style: none;
+}  
+.lan 
+{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: left;
+    padding: 10px, 10px, 20px, 10px;
+    margin: 10px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: black;
+}  
+.hindi {width: 100%; background-color:white}
+.english {width: 90%; background-color:#ff7e7e}
+.punjabi {width: 100%; background-color:#F2EE26}
+.spanish {width: 20%; background-color: white}
+/* ---------------------- */
+
+
+/* Return home navigation div styling for other page */
+.return
+{
+    margin: 0px 20px 0px 0px;
+    float: right;
+    width:300px;
+    opacity: 0.9;
+    display: block;
+}
+/* return home button styling for other pages */
+#navreturn
+{
+    background-color: #54F078;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+    display: block;
+    position:fixed;
+}
+/* hyperlink text style for return home button */
+.return #navreturn a
+{
+    text-decoration: none;
+    font: bolder large 'Alegreya Sans SC', sans-serif;
+    color: white;
+}
+
+/* hover effect for the return button block */
+#navreturn:hover
+{
+    background-color: #B9FFA6 ;
+}/* Footer style for footer navigation division */
+.footer1
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px ;
+    text-align:center;
+    height: 35px;
+    margin: 0px 250px 0px 400px;
+    padding: 150px 20px 0px 20px;
+    opacity: 0.9;
+}
+/* Footer navigation div styling for About|Experience|Achievement|Contact pages */
+.footernav
+{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background:#C2C4C4;
+    color: #FA787C;
+    padding: 0px;
+    display: flex;
+    border-radius: 2px;
+    width: 450px;
+    opacity: 0.7;
+}
+/* hyperlink text settings for footer navigation on other pages */
+.footernav a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+/* Footer navigation list styling for About|Experience|Achievement|Contact pages */
+#flist
+{
+    background-color:#FA787C;
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+    font-size: 15px;;
+    border-radius: 2px;
+}
+/* hover effect on footer navigation */
+#flist:hover
+{
+    background-color: #FCEE9D ;
+}
+
+/* -------------------- Contact form styling --------------------*/
+.contform
+{
+    width: 50%;
+    border-radius: 4px;
+    background-color: #F2EE26;
+    padding: 20px;
+    margin: 20px;
+    color: #4F4D49;
+}
+input[type=text], select, textarea 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+input[type=submit] 
+{
+    width: 50%;
+    background-color: #61FF59;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #4F4D49;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+input[type=submit]:hover 
+{
+    background-color: #347537;
+}
+/* - span style for star symbol and mandatory field text - */
+#ftext
+{
+    color: orangered;
+}
+/* ----------------Contact form styling ends------------ */
